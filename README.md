@@ -30,7 +30,7 @@ JavaScript
 ```bash
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+```
 Ejecutar el proyecto
 Finalmente, ejecuta el proyecto en modo de desarrollo:
 ```bash
