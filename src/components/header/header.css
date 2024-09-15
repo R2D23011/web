@@ -1,0 +1,30 @@
+.navbar{
+    padding: 30px !important;
+    font-size: large !important;
+    background-color: #fefefe !important;
+    box-shadow: 0 0 20px 0 #666 !important;
+    justify-content: space-around !important;
+}
+
+.nav-link{
+    color: #37a !important;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.active{
+    color: #37a !important;
+    border: 1px solid #37a !important;
+    border-radius: 8px ;
+}
+
+.nav-link:hover{
+    background-color: #37a;
+    color: #fff !important;
+    border-radius:  8px !important;
+}
+
+
+#navbarNavDropdown{
+    text-align: center;
+}

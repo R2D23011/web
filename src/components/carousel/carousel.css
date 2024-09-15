@@ -1,0 +1,26 @@
+.carousel-control-prev-icon, .carousel-control-next-icon{ 
+    background-color: black;
+}
+
+#carouselExampleIndicators{
+    margin: 120px 3%;
+}
+
+.carousel-indicators{
+    padding: 2px 2px;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+
+.carousel-item{
+    border-radius: 20px;
+}
+
+.carousel-item img {
+    object-fit: initial;
+    max-height: 500px;
+}
+
