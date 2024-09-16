@@ -1,0 +1,29 @@
+html, body{
+  height: 100dvh;
+}
+
+
+/* Para navegadores basados en WebKit */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #37a4;
+    border-radius: 8px;
+    border: 3px solid #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #37a;
+  }
+  
+  /* Para Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #37a #f1f1f1;
+  }
