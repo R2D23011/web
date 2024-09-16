@@ -5,11 +5,13 @@ import { Header } from '../components/header/header'
 
 export const HomePage = () => {
   return (
-    <>
+    <div className='d-flex flex-column justify-content-between' style={{height:'100%'}}>
         <Header></Header>
-        <Carousel></Carousel>
+        <main>
+          <Carousel></Carousel>
+        </main>
         <Footer></Footer>
-    </>
+    </div>
   )
 }
 

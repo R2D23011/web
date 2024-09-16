@@ -1,8 +1,11 @@
-html, body{
-  height: 100dvh;
+body{
+  overflow:scroll;
+  overflow-x: hidden;
 }
 
-
+#root{
+  height: 100dvh !important;
+}
 /* Para navegadores basados en WebKit */
 ::-webkit-scrollbar {
     width: 15px;
