@@ -8,7 +8,7 @@ export const Header = () => {
 
 
     return (
-        <nav className="navbar fixed-top navbar-expand-lg">
+        <nav className="navbar fixed-top navbar-expand-lg" id='Header'>
             <div className="container-fluid" id="content">
                 <Link className="navbar-brand" to="/" >
                     <img src={Logoimg} alt="Logo" width='120px' className="d-inline-block" />

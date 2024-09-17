@@ -23,12 +23,22 @@
     border-radius: 8px;
 }
 
-.carousel-inner{
-    box-shadow: 0 0 8px 0 #aaa !important;
-}
-
 
 #navbarNavDropdown{
     text-align: center;
 }
 
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(5%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+#Header{
+    animation: slideInFromTop 1s ease-in-out;
+}
