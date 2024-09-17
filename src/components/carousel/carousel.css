@@ -4,24 +4,22 @@
 }
 
 #carouselExampleIndicators{
-    margin: 120px 3%;
+    margin: 120px 10%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 0 #999;
+    max-height: 720px;
+    max-width: 1280px;
 }
 
 .carousel-indicators{
     padding: 2px 2px;
 }
 
-.carousel-inner{
-    border-radius: 20px;
-}
-
-
 .carousel-item{
     border-radius: 20px;
 }
 
 .carousel-item img {
-    object-fit: initial;
-    max-height: 500px;
+    max-height: 550px;
 }
 

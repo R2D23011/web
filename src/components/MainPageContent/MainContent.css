@@ -1,0 +1,28 @@
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100% !important;
+}
+
+#galeria img:hover{
+    box-shadow: 0 0 15px 0 #999;
+}
+
+.container-fluid .p{
+    font-family: sans-serif;
+}
+
+.container-fluid h2{
+    text-decoration: 2px underline;
+    margin-bottom: 0;
+}
+
+.container-fluid hr{
+    margin: 0;
+}

@@ -1,6 +1,3 @@
-import BannerSilla from '../../assets/sillaBanner.jpg'
-import banner from '../../assets/notas.jpg'
-import ejemplo from '../../assets/Ejemplo.jpg'
 import './carousel.css'
 
 
@@ -14,13 +11,13 @@ export const Carousel = () => {
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img src={BannerSilla} className="d-block w-100 img-fluid" alt="..."/>
+                <img src='https://i.ibb.co/X2VSd7B/Banner1.jpg' className="d-block w-100 img-fluid" alt="..."/>
             </div>
             <div className="carousel-item">
-                <img src={banner} className="d-block w-100 img-fluid" alt="..."/>
+                <img src='https://i.ibb.co/L6mZ5Nn/Banner2.jpg' className="d-block w-100 img-fluid" alt="..."/>
             </div>
             <div className="carousel-item">
-              <img src={ejemplo} className="d-block w-100 img-fluid" alt="..."/>
+              <img src='https://i.ibb.co/Fh6bKJR/Banner3.jpg' className="d-block w-100 img-fluid" alt="..."/>
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

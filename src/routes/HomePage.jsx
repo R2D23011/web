@@ -1,6 +1,7 @@
 import {Carousel} from '../components/carousel/carousel'
 import Footer from '../components/footer/footer'
 import { Header } from '../components/header/header'
+import { MainContent } from '../components/MainPageContent/MainContent'
 
 
 export const HomePage = () => {
@@ -9,6 +10,7 @@ export const HomePage = () => {
         <Header></Header>
         <main>
           <Carousel></Carousel>
+          <MainContent></MainContent>
         </main>
         <Footer></Footer>
     </div>
