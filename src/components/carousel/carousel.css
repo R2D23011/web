@@ -22,7 +22,3 @@
 .carousel-item img {
     max-height: 550px;
 }
-
-.carousel-inner{
-    box-shadow: 0 0 8px 0 #aaa !important;
-}

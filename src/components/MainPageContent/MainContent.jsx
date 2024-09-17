@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './MainContent.css'
 
 export const MainContent = () => {
@@ -8,16 +9,22 @@ export const MainContent = () => {
         <div className="container text-center" id='galeria'>
             <div className="row">
                 <div className="col-lg-4 col-xs-12">
-                    <img src='https://i.ibb.co/4dgF42H/Silla.jpg' className='figure-img img-fluid rounded' alt='imagen de silla'></img>
-                    <figcaption>Silla</figcaption>
+                    <Link className='text-decoration-none text-black' to='/sillasCatalog'>
+                        <img src='https://i.ibb.co/4dgF42H/Silla.jpg' alt='imagen de silla'/>
+                        <figcaption className='figure-caption'>Silla</figcaption>
+                    </Link>
                 </div>
                 <div className="col-lg-4 col-xs-12">
-                    <img src='https://i.ibb.co/FXZdj8Z/Mesajpg.jpg'></img>
-                    <figcaption>Mesas</figcaption>
+                    <Link className='text-decoration-none text-black' to='/mesasCatalog'>
+                        <img src='https://i.ibb.co/FXZdj8Z/Mesajpg.jpg'/>
+                        <figcaption className='figure-caption'>Mesas</figcaption>
+                    </Link>
                 </div>
                 <div className="col-lg-4 col-xs-12">
-                    <img src='https://i.ibb.co/zVH2gBg/escritorio.jpg'></img>
-                    <figcaption>Escritorios</figcaption>
+                    <Link className='text-decoration-none text-black' to='/escritoriosCatalog'>
+                        <img src='https://i.ibb.co/zVH2gBg/escritorio.jpg'/>
+                        <figcaption className='figure-caption'>Escritorios</figcaption>
+                    </Link>
                 </div>
             </div>
         </div>

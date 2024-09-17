@@ -1,7 +1,8 @@
 #whatsapp{
-    margin-bottom: 5%;
-    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-right: 3%;
     box-sizing: border-box;
+    width: 50px;
 }
 
 #whatsapp:hover{
