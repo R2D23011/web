@@ -1,0 +1,24 @@
+#whatsapp{
+    margin-bottom: 3%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+#whatsapp:hover{
+    filter: drop-shadow(0px 0px 4px #999);
+}
+
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-from-right {
+    animation: slideInFromRight 1s ease-in-out;
+  }

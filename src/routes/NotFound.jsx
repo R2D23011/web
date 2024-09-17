@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { IconoFlotante } from "../components/IconoFlotanteWhatsapp/IconoFlotante";
 
 const styles = {
     container: {
@@ -30,6 +31,7 @@ const styles = {
         <h1 className="display-1" style={styles.title}>ERROR 404!</h1>
         <p style={styles.message}>Lo sentimos, la página que buscas no existe.</p>
         <Link to="/" style={styles.link}>Volver a la página principal</Link>
+        <IconoFlotante></IconoFlotante>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import Footer from '../components/footer/footer'
 import { Header } from '../components/header/header'
+import { IconoFlotante } from '../components/IconoFlotanteWhatsapp/IconoFlotante'
 
 export const ContactoPage = () => {
   return (
@@ -8,6 +9,7 @@ export const ContactoPage = () => {
         <main>
           <h1 style={{marginTop: '120px', textAlign: 'center'}}>Contacto Page</h1>
         </main>
+        <IconoFlotante></IconoFlotante>
         <Footer></Footer>
     </div>
   )

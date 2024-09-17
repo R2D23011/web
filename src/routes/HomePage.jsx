@@ -1,6 +1,7 @@
 import {Carousel} from '../components/carousel/carousel'
 import Footer from '../components/footer/footer'
 import { Header } from '../components/header/header'
+import { IconoFlotante } from '../components/IconoFlotanteWhatsapp/IconoFlotante'
 import { MainContent } from '../components/MainPageContent/MainContent'
 
 
@@ -11,6 +12,7 @@ export const HomePage = () => {
         <main>
           <Carousel></Carousel>
           <MainContent></MainContent>
+          <IconoFlotante></IconoFlotante>
         </main>
         <Footer></Footer>
     </div>
