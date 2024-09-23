@@ -1,9 +1,13 @@
 .navbar{
-    padding: 30px !important;
     font-size: large !important;
     background-color: #fefefe !important;
     box-shadow: 0 0 20px 0 #aaa !important;
     justify-content: space-around !important;
+}
+
+.brand{
+    height: 80px;
+    margin-left: 20px;
 }
 
 .nav-link{
@@ -13,12 +17,14 @@
 }
 
 .active{
-    color: #21252d;
+    color: #fefefe !important;
+    background-color: #9d1e1e !important;
     box-shadow: 0 0 10px 0 #bbb;
 }
 
 .nav-link:hover{
-    color: #212529;
+    color: #fefefe !important;
+    background-color: #9d1e1e;
     box-shadow: 0 0 10px 0 #bbb;
     border-radius: 8px;
 }

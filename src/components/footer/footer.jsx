@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import './footer.css'
-import LogoNoType from '../../assets/LogoFooter.svg'
+import LogoNoType from '../../assets/Logo.png'
 
 const phoneIcon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-phone" viewBox="0 0 16 16">
 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
@@ -31,21 +31,20 @@ const Footer = () => {
     <footer className="container-fluid">
         <div className="row pd-5 bg-dark text-white justify-content-around">
             <div className="col-xs-8 col-md-4 col-lg-2">
-                <p className="mb-2 mt-4"><img width='150px' src={LogoNoType}/></p>
-                <p className="text-secondary">© Comforty, Inc</p>
+                <Link className="mb-2 sin text-decoration-none text-secondary"><img width='100px' src={LogoNoType} to='/'/><br/>© Servicios Integrales del Norte, Inc</Link>
             </div>
             <div className="col-xs-8 col-md-4 col-lg-2 mb-3">
                 <p className="h5 mb-3">Contacto</p>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none" 
+                    <Link className="text-secondary text-decoration-none link-footer" 
                             to='tel:+584242429897'>{phoneIcon} +51(234) 32938-323</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none" 
+                    <Link className="text-secondary text-decoration-none link-footer" 
                             to='mailto:carlitosaac16@gmail.com'>{emailIcon} - shopify@mail.com</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none" 
+                    <Link className="text-secondary text-decoration-none link-footer" 
                             to='https://maps.app.goo.gl/9RELaP6bmAe9yfqQ6' 
                             target="blank">{locationIcon} - Chañaral, Atacama, Chile</Link>
                 </div>
@@ -53,23 +52,23 @@ const Footer = () => {
             <div className="col-xs-8 col-md-4 col-lg-2">
                 <p className="h5 mb-3">Social</p>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none bi"
+                    <Link className="text-secondary text-decoration-none bi link-footer"
                             to='https://wa.me/584242429897?text=Hola,%20vengo%20de%20tu%20pagina%20web%20y%20me%20gustaria%20saber%20mas%20sobre..' 
                             target="blank">{Whatsappicon} Whatsapp</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none" 
+                    <Link className="text-secondary text-decoration-none link-footer" 
                             to='/'
                             target="blank">{Facebookicon}  Facebook</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none" 
+                    <Link className="text-secondary text-decoration-none link-footer" 
                             to='/'
                             target="blank">{InstagramIcon} Instagram</Link>
                 </div>
             </div>
             <div className="bottom bg-dark">
-                <p className="derechos text-secondary blockquote-footer">© Todos los Derechos Reservados, Pagina creada por <Link className="text-decoration-none linkedin" to="https://www.linkedin.com/in/carlos-acevedo-2947b420a" target="blank">ArturoD3v</Link></p>
+                <p className="derechos text-secondary blockquote-footer">© Todos los Derechos Reservados, Pagina creada por <Link className="text-decoration-none linkedin link-footer" to="https://www.linkedin.com/in/carlos-acevedo-2947b420a" target="blank">ArturoD3v</Link></p>
             </div>
         </div>
     </footer>

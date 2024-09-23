@@ -1,5 +1,5 @@
 import './header.css'
-import Logoimg from '../../assets/Logo.svg'
+import Logoimg from '../../assets/Logo.png'
 import { Link, useLocation } from 'react-router-dom'
 
 export const Header = () => {
@@ -11,7 +11,7 @@ export const Header = () => {
         <nav className="navbar fixed-top navbar-expand-lg" id='Header'>
             <div className="container-fluid" id="content">
                 <Link className="navbar-brand" to="/" >
-                    <img src={Logoimg} alt="Logo" width='120px' className="d-inline-block" />
+                    <img src={Logoimg} alt="Logo" className="d-inline-block brand" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"     aria-controls="navbarNavDropdown"    aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

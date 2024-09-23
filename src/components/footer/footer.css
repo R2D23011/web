@@ -1,4 +1,10 @@
+.link-footer:hover{
+    color: #9d1e1e !important;
+}
 
+.sin{
+    font-size: smaller;
+}
 
 .bottom{
     margin: 0;

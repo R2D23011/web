@@ -24,7 +24,8 @@
   .silla {
     background-color: #fff;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 0px 1px 0 #9d1e1e32;
     transition: transform 0.2s;
   }
   
@@ -49,10 +50,7 @@
   
   .silla .precio {
     font-weight: bold;
-    color: #e91e63;
+    color: #9d1e1e;
   }
-  
-  .silla .stock {
-    color: #4caf50;
-  }
+
   
