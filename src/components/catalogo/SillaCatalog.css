@@ -1,0 +1,58 @@
+  .sillah1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 2.5em;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #212121, #67b);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 10px 0;
+  }
+  
+  /* Contenedor de la grilla */
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para cada tarjeta de silla */
+  .silla {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .silla:hover {
+    transform: scale(1.05);
+  }
+  
+  .silla-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .silla h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .silla p {
+    margin: 5px 0;
+  }
+  
+  .silla .precio {
+    font-weight: bold;
+    color: #e91e63;
+  }
+  
+  .silla .stock {
+    color: #4caf50;
+  }
+  
