@@ -81,7 +81,7 @@ function ContactForm() {
           onChange={handleChange}
           minLength={12}
           maxLength={12}
-          placeholder='+56987705157'
+          pattern="[0-9+]*"
           required
         />
         {error && <p className="error">{error}</p>}
