@@ -1,0 +1,119 @@
+{
+  "catalogoSillas": [
+    {
+      "id": 1,
+      "nombre": "MOD. ERG-001",
+      "descripcion": "Silla con respaldo reclinable y apoya cabeza regulable",
+      "color": "Negro",
+      "material": "Metal y Policarbono",
+      "precio": "125.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczMqqBrvM-FFBEBUATx3hjFIGGNokjKZesjmycD9dh6vRQPsztQoCMHsOtaXkijWGbCTpkGj3a6N8Tr8O5N24LyWrvgUxJctTqkrCyc_K9E5LOkJDA",
+      "caracteristicas": [
+        "Apoya brazos ajustables",
+        "Apoyo lumbar ajustable",
+        "Respaldo reclinable",
+        "Apoya cabeza regulable",
+        "Asiento con espuma de alta densidad",
+        "Altura ajustable",
+        "Sistema sincronico a gas",
+        "Giro 360",
+        "Estructura metalica y Policarbono",
+        "5 Ruedas",
+        "Respaldo de Malla",
+        "Capacidad 120Kg"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "MOD. SERG-123",
+      "descripcion": "Silla con apoyo lumbar y apoyabrazos fijo",
+      "color": "Negro",
+      "material": "Metal y Polipropeno ",
+      "precio": "69.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczPD6AvXh2PQYm4RmY3ltB_xFkvW1ygaZGz5701lBLtU4FdpDdpM8_oVvYcC2Q0-QCieV7bsksJfDG0kKClEj5bpFmQXP9_ZLUDC7pZY43WbXtzTow=w2400",
+      "caracteristicas": [
+        "Giro 360",
+        "Respaldo de Malla",
+        "Asiento de tela y espuma de alta densidad",
+        "Apoyabrazos fijos de polipropileno",
+        "Base cromada 5 puntos",
+        "Altura regulable con sistema sincronico de aire",
+        "Apoyo lumbar",
+        "Capacidad 120Kg"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "MOD. EJE-438",
+      "descripcion": "Silla acolchada con apoyabrazos tapizados",
+      "color": "Negro o Cafe",
+      "material": "Metal y Ecocuero",
+      "precio": "145.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczOTrceBuOEAtckZw-V1WVvGAGF__iCRxLxd3IClkY6nYdV1q8kW5E0aeQvERpLo6CFggLt1zCbxnuMmGNgiQhLy51DF5d5v8scumHjyKwZcvOdu6g=w2400",
+      "caracteristicas": [
+        "Base cromada 5 puntos",
+        "Giro 360",
+        "Altura total 120cm",
+        "Asiento 53cm",
+        "Respaldo 70cm",
+        "Mecanismo de altura regulable a gas",
+        "Apoyabrazos tapizados(fijos)",
+        "Tapiz Ecocuero",
+        "Posa pies opcional",
+        "Capacidad 130Kg"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "MOD. VIS-014",
+      "descripcion": "Silla ideal para visitas, con respaldo de malla",
+      "color": "Negro",
+      "material": "Metal",
+      "precio": "35.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczN8UehhmvduzSl498mZb5UE_BSmnvBlbSGxfWhlAJP4V1oMWtNAp5tLPPvew1kaSU2vkpV2pebt7q7z5SdxYhCeK42AFDi-iklH2Eetm05QJ6eQKA=w2400",
+      "caracteristicas": [
+        "Estructura metalica cromada",
+        "Respaldo de Malla 60cm",
+        "Asiento de alta densidad",
+        "Asiento 50cm",
+        "Posabrazos tapizados",
+        "Silla de visita" 
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "MOD. MA-394",
+      "descripcion": "Silla rellena con espuma de alta densidad y respaldo de tela",
+      "color": "Negro",
+      "material": "Metal y PVC",
+      "precio": "62.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczOKcx1pK3AD55oiAJx6cO-qJfIbXmc0whfpug81uTFmqLajq08c-00Enh5SqxwGGEUZcu5qUkiV95A8uDA5gkUqm5pG57dy2PDPYQkoW-KVwAgMpg=w2400",
+      "caracteristicas": [
+        "Base solida de 5 brazos para mayor estabilidad y movilidad",
+        "Altura ajustable",
+        "Construida sobre estructura metalica",
+        "Capacidad 70Kg",
+        "Asiento y respaldo tapizado en tela",
+        "Base PVC",
+        "Relleno de espuma de alta densidad"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "MOD. VIS-043",
+      "descripcion": "Silla de visita con respaldo y asiento de espuma de alta densidad",
+      "color": "Negro",
+      "material": "Metal",
+      "precio": "38.000",
+      "imagen": "https://lh3.googleusercontent.com/pw/AP1GczMY2nH6A_yxDoeS0e899xreRv1_cqp9Sczmb91Xqo3pJju-kMJNHi7_R8CxSr_yX_2oTWr5rJxjza2xCtnvpBRdeBnUmj5KwVQGnxcHW1QeQRlBzg",
+      "caracteristicas": [
+        "Silla de visita",
+        "Relleno de espuma de alta densidad",
+        "Asiento con espuma de alta densidad",
+        "Tapizado en tela negra",
+        "Estructura metalica electropintada",
+        "Capacidad 250Kg"
+      ]
+    }
+  ]
+}

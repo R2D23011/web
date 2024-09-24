@@ -20,17 +20,17 @@ export const Header = () => {
                     <ul className="navbar-nav ms-auto">
                         
                         <li className="nav-item">
-                            <Link className={`nav-link ${location.pathname === '/sillasCatalog' ? 'active' : ''}`} to="/sillasCatalog">Sillas</Link>
+                            <Link className={`nav-link ${location.pathname === '/sillasCatalog' ? 'activeheader' : ''}`} to="/sillasCatalog">Sillas</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={`nav-link ${location.pathname === '/mesasCatalog' ? 'active' : ''}`} to="/mesasCatalog">Mesas</Link>
+                            <Link className={`nav-link ${location.pathname === '/mesasCatalog' ? 'activeheader' : ''}`} to="/mesasCatalog">Mesas</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={`nav-link ${location.pathname === '/escritoriosCatalog' ? 'active' : ''}`} to="/escritoriosCatalog">Escritorios</Link>
+                            <Link className={`nav-link ${location.pathname === '/escritoriosCatalog' ? 'activeheader' : ''}`} to="/escritoriosCatalog">Escritorios</Link>
                         </li>
                     </ul>
                     <ul className="navbar-nav ms-auto">
-                        <Link className={`nav-link ${location.pathname === '/contacto' ? 'active' : ''}`} to='/contacto'>Contacto</Link>
+                        <Link className={`nav-link ${location.pathname === '/contacto' ? 'activeheader' : ''}`} to='/contacto'>Contacto</Link>
                     </ul>
                 </div>
             </div>

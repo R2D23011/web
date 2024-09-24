@@ -1,16 +1,13 @@
-import Footer from '../components/footer/footer'
-import { Header } from '../components/header/header'
-import { IconoFlotante } from '../components/IconoFlotanteWhatsapp/IconoFlotante'
+import { MesasCatalog } from "../components/catalogo/MesasCatalog/MesasCatalog"
+import { SillaCatalog } from "../components/catalogo/SillaCatalog/SillaCatalog"
+
 
 export const MesasPage = () => {
   return (
     <div className='d-flex flex-column justify-content-between' style={{height:'100%'}}>
-        <Header></Header>
         <main>
-          <h1 style={{marginTop: '120px', textAlign: 'center'}}>Mesas Page</h1>
+          <MesasCatalog></MesasCatalog>
         </main>
-        <IconoFlotante></IconoFlotante>
-        <Footer></Footer>
     </div>
   )
 }

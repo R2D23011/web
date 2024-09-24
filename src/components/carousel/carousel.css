@@ -1,5 +1,4 @@
 .carousel-control-prev-icon, .carousel-control-next-icon{ 
-    background-color: #3338;
     border-radius: 50%;
 }
 
@@ -13,6 +12,10 @@
 
 .carousel-indicators{
     padding: 2px 2px;
+}
+
+div div .active{
+    background-color: #ae9787 !important;
 }
 
 .carousel-item{

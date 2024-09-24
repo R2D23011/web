@@ -1,10 +1,11 @@
+  .margin-top{
+    margin-top: 120px;
+  }
   .sillah1 {
     text-align: center;
-    margin-top: 120px;
     font-size: 2.5em;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #212121, #67b);
+    color: #734b35;
+    background: linear-gradient(to right, #ae9787, #734b35);
     -webkit-background-clip: text;
     color: transparent;
     padding: 10px 0;
@@ -13,11 +14,12 @@
   /* Contenedor de la grilla */
   .catalogo {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
   
   /* Estilos para cada tarjeta de silla */
@@ -25,7 +27,7 @@
     background-color: #fff;
     padding: 15px;
     border-radius: 4px;
-    box-shadow: 0 0px 1px 0 #9d1e1e32;
+    box-shadow: 0 0 1px 0 #734b35;
     transition: transform 0.2s;
   }
   
@@ -50,7 +52,7 @@
   
   .silla .precio {
     font-weight: bold;
-    color: #9d1e1e;
+    color: #734b35;
   }
 
   

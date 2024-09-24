@@ -29,19 +29,19 @@ const InstagramIcon = <svg xmlns="http://www.w3.org/2000/svg" width="16" height=
 const Footer = () => {
   return (
     <footer className="container-fluid">
-        <div className="row pd-5 bg-dark text-white justify-content-around">
+        <div className="row pd-5 bg-dark1 text-white justify-content-around">
             <div className="col-xs-8 col-md-4 col-lg-2">
                 <Link className="mb-2 sin text-decoration-none text-secondary"><img width='100px' src={LogoNoType} to='/'/><br/>© Servicios Integrales del Norte, Inc</Link>
             </div>
-            <div className="col-xs-8 col-md-4 col-lg-2 mb-3">
+            <div className="col-xs-8 col-md-4 col-lg-3 mb-3">
                 <p className="h5 mb-3">Contacto</p>
                 <div className="mb-2">
                     <Link className="text-secondary text-decoration-none link-footer" 
-                            to='tel:+584242429897'>{phoneIcon} +51(234) 32938-323</Link>
+                            to='tel:+56975628652'>{phoneIcon} +56 9 7562 8652</Link>
                 </div>
                 <div className="mb-2">
                     <Link className="text-secondary text-decoration-none link-footer" 
-                            to='mailto:carlitosaac16@gmail.com'>{emailIcon} - shopify@mail.com</Link>
+                            to='mailto:serviciosintegradosdelnorte@gmail.com'>{emailIcon} - serviciosintegradosdelnorte@gmail.com</Link>
                 </div>
                 <div className="mb-2">
                     <Link className="text-secondary text-decoration-none link-footer" 
@@ -53,7 +53,7 @@ const Footer = () => {
                 <p className="h5 mb-3">Social</p>
                 <div className="mb-2">
                     <Link className="text-secondary text-decoration-none bi link-footer"
-                            to='https://wa.me/584242429897?text=Hola,%20vengo%20de%20tu%20pagina%20web%20y%20me%20gustaria%20saber%20mas%20sobre..' 
+                            to='https://wa.me/+56975628652?text=Hola,%20vengo%20de%20tu%20pagina%20web%20y%20me%20gustaria%20saber%20mas%20sobre..' 
                             target="blank">{Whatsappicon} Whatsapp</Link>
                 </div>
                 <div className="mb-2">
@@ -67,7 +67,7 @@ const Footer = () => {
                             target="blank">{InstagramIcon} Instagram</Link>
                 </div>
             </div>
-            <div className="bottom bg-dark">
+            <div className="bottom bg-dark1">
                 <p className="derechos text-secondary blockquote-footer">© Todos los Derechos Reservados, Pagina creada por <Link className="text-decoration-none linkedin link-footer" to="https://www.linkedin.com/in/carlos-acevedo-2947b420a" target="blank">ArturoD3v</Link></p>
             </div>
         </div>

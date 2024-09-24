@@ -13,20 +13,22 @@
 .nav-link{
     margin: 0 5px;
     transition: ease-in-out 0.3s;
-    border-radius: 8px;
+    border-radius: 2px;
+    transition: transform 0.2s;
 }
 
-.active{
+.activeheader{
     color: #fefefe !important;
-    background-color: #9d1e1e !important;
+    background-color: #734b35 !important;
     box-shadow: 0 0 10px 0 #bbb;
 }
 
 .nav-link:hover{
     color: #fefefe !important;
-    background-color: #9d1e1e;
-    box-shadow: 0 0 10px 0 #bbb;
-    border-radius: 8px;
+    background-color: #734b35f0;
+    box-shadow: 0 0 8px 0 #bbb;
+    border-radius: 2px;
+    transform: scale(1.08);
 }
 
 
