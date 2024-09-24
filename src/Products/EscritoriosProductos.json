@@ -1,0 +1,95 @@
+{
+    "catalogoEscritorios": [
+      {
+        "id": 1,
+        "nombre": "MOD. ESC-001",
+        "descripcion": "Escritorio ejecutivo con acabado en madera de nogal",
+        "color": "Nogal",
+        "material": "Madera de nogal",
+        "precio": "300.000",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_666432-MLV72318949258_102023-O.webp",
+        "caracteristicas": [
+          "Amplia superficie de trabajo",
+          "Cajones con cerradura",
+          "Acabado en madera de nogal",
+          "Dimensiones: 160x80x75 cm"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "MOD. ESC-002",
+        "descripcion": "Escritorio de oficina con estructura metálica y superficie de vidrio",
+        "color": "Negro",
+        "material": "Metal y vidrio",
+        "precio": "250.000",
+        "imagen": "https://m.media-amazon.com/images/I/71gHe2a2CrL._AC_UF894,1000_QL80_.jpg",
+        "caracteristicas": [
+          "Superficie de vidrio templado",
+          "Estructura metálica robusta",
+          "Diseño moderno",
+          "Dimensiones: 140x70x75 cm"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "MOD. ESC-003",
+        "descripcion": "Escritorio compacto con estanterías integradas",
+        "color": "Blanco",
+        "material": "Madera y metal",
+        "precio": "180.000",
+        "imagen": "https://www.mueblessygma.com/wp-content/uploads/2021/04/NITTRO-EN-L-OPERATIVO.jpg",
+        "caracteristicas": [
+          "Estanterías integradas",
+          "Diseño compacto",
+          "Fácil de ensamblar",
+          "Dimensiones: 120x60x75 cm"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "MOD. ESC-004",
+        "descripcion": "Escritorio ajustable en altura con superficie laminada",
+        "color": "Gris",
+        "material": "Metal y laminado",
+        "precio": "220.000",
+        "imagen": "https://www.evolutionmuebles.com.mx/web/538-large_default/escritorio-de-oficina-moderno.jpg",
+        "caracteristicas": [
+          "Altura ajustable",
+          "Superficie laminada resistente",
+          "Base de metal robusta",
+          "Dimensiones: 140x70x75-110 cm"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "MOD. ESC-005",
+        "descripcion": "Escritorio en L con espacio de almacenamiento",
+        "color": "Cerezo",
+        "material": "Madera de cerezo",
+        "precio": "350.000",
+        "imagen": "https://www.califa.com.pe/cdn/shop/collections/escritorio_de_oficina_1200x1200.jpg?v=1603768242",
+        "caracteristicas": [
+          "Diseño en L",
+          "Amplio espacio de almacenamiento",
+          "Acabado en madera de cerezo",
+          "Dimensiones: 200x150x75 cm"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "MOD. ESC-006",
+        "descripcion": "Escritorio plegable portátil con estructura de aluminio",
+        "color": "Negro",
+        "material": "Aluminio y plástico",
+        "precio": "100.000",
+        "imagen": "https://i0.wp.com/galeeshome.com/wp-content/uploads/2023/01/ESCRITORIO-NIA.jpg?fit=1000%2C1000&ssl=1",
+        "caracteristicas": [
+          "Plegable y portátil",
+          "Estructura de aluminio ligera",
+          "Superficie de plástico resistente",
+          "Dimensiones: 100x50x75 cm"
+        ]
+      }
+    ]
+  }
+  

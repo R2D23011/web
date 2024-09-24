@@ -1,4 +1,4 @@
-import { SillaCatalog } from '../components/catalogo/SillaCatalog'
+import { SillaCatalog } from '../components/catalogo/SillaCatalog/SillaCatalog'
 
 export const SillasPage = () => {
   return (

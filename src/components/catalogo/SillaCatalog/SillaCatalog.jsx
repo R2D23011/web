@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
-import SillasProducts from '../../Products/SillasProducts/SillasProducts.json'
-import './SillaCatalog.css'
+import SillasProducts from '../../../Products/SillasProducts.json'
+import '../CatalogStyle.css'
 
 
 export const SillaCatalog = () => {
 
   return (
-    <div>
-      <h1 className='sillah1'>Sillas</h1>
+    <div className='margin-top'>
       <div className="catalogo">
         {SillasProducts.catalogoSillas.map(silla => (
           <Link key={silla.id} className="silla text-decoration-none text-dark" to={`/silla/${silla.id}`}>

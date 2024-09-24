@@ -7,8 +7,10 @@ import { ContactoPage } from './routes/ContactoPage'
 import NotFoundPage from './routes/NotFound'
 import { useEffect, useState } from 'react'
 import Loading from './hook/Loading'
-import ItemDetalle from './components/Item/Item'
 import { Layout } from './components/Layout/Layout'
+import SillaDetalle from './components/Item/ItemSilla'
+import MesaDetalle from './components/Item/ItemMesa'
+import EscritorioDetalle from './components/Item/ItemEscritorio'
 
 
 const AppMain = () => {
@@ -36,7 +38,9 @@ const AppMain = () => {
                     <Route path="/mesasCatalog" element={<MesasPage />} />
                     <Route path="/escritoriosCatalog" element={<EscritoriosPage/>} />
                     <Route path="/contacto" element={<ContactoPage />} />
-                    <Route path="/silla/:id" element={<ItemDetalle />} />
+                    <Route path="/silla/:id" element={<SillaDetalle />} />
+                    <Route path="/mesa/:id" element={<MesaDetalle />} />
+                    <Route path="/escritorio/:id" element={<EscritorioDetalle />} />
                   </Route>
                   <Route path="*" element={<NotFoundPage />} />
               </Routes>

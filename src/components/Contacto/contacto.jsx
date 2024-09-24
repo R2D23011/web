@@ -75,6 +75,8 @@ function ContactForm() {
           name="message"
           value={formData.message}
           onChange={handleChange}
+          minLength={20}
+          maxLength={500}
           required
         ></textarea>
       </div>

@@ -1,0 +1,103 @@
+{
+    "catalogoMesas": [
+      {
+        "id": 1,
+        "nombre": "MOD. MESA-001",
+        "descripcion": "Mesa de comedor rectangular con acabado en madera natural",
+        "color": "Marrón",
+        "material": "Madera de roble",
+        "precio": "200.000",
+        "imagen": "https://equipemuebles.com/cdn/shop/products/Azael-Wengue-Humo-Ambientadacerrada-VirtualMuebles-MesasdeCentro-Sala-RTA-FUNCIONAL5G-3-MZW6272.jpg?v=1694725881&width=600",
+        "caracteristicas": [
+          "Capacidad para 6 personas",
+          "Acabado en madera natural",
+          "Patas robustas",
+          "Fácil de limpiar",
+          "Resistente a rayones",
+          "Dimensiones: 180x90x75 cm"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "MOD. MESA-002",
+        "descripcion": "Mesa de centro moderna con superficie de vidrio templado",
+        "color": "Transparente",
+        "material": "Vidrio y metal",
+        "precio": "150.000",
+        "imagen": "https://aulamobel.com/wp-content/uploads/2020/02/Mesa-para-oficina-Panel-con-ala.jpg",
+        "caracteristicas": [
+          "Superficie de vidrio templado",
+          "Base de metal cromado",
+          "Diseño moderno",
+          "Fácil de ensamblar",
+          "Dimensiones: 120x60x45 cm"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "MOD. MESA-003",
+        "descripcion": "Mesa auxiliar redonda con acabado en mármol",
+        "color": "Blanco",
+        "material": "Mármol y metal",
+        "precio": "100.000",
+        "imagen": "https://m.media-amazon.com/images/I/81j4E7eFlbL._AC_UF894,1000_QL80_.jpg",
+        "caracteristicas": [
+          "Superficie de mármol",
+          "Base de metal dorado",
+          "Diseño elegante",
+          "Fácil de mover",
+          "Dimensiones: 50x50x55 cm"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "MOD. MESA-004",
+        "descripcion": "Mesa de comedor redonda con acabado en nogal",
+        "color": "Nogal",
+        "material": "Madera de nogal",
+        "precio": "180.000",
+        "imagen": "https://silvinac.com.ar/wp-content/uploads/2023/02/Mesa-cuadrada-Classic-1SILVINA-C-MUEBLERIA-DECORACION.webp",
+        "caracteristicas": [
+          "Capacidad para 4 personas",
+          "Acabado en nogal",
+          "Patas robustas",
+          "Fácil de limpiar",
+          "Resistente a rayones",
+          "Dimensiones: 120x120x75 cm"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "MOD. MESA-005",
+        "descripcion": "Mesa de trabajo ajustable en altura con superficie laminada",
+        "color": "Blanco",
+        "material": "Metal y laminado",
+        "precio": "220.000",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ15-bGUUa60FAtmdL6g7YrOnFglqE6taw4g&s",
+        "caracteristicas": [
+          "Altura ajustable",
+          "Superficie laminada resistente",
+          "Base de metal robusta",
+          "Ruedas para fácil movilidad",
+          "Dimensiones: 140x70x75-110 cm"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "MOD. MESA-006",
+        "descripcion": "Mesa plegable portátil con estructura de aluminio",
+        "color": "Gris",
+        "material": "Aluminio y plástico",
+        "precio": "80.000",
+        "imagen": "https://img3.kenayhome.com/135833-medium_default/delos-mesa-de-comedor-rectangular-natural-220.jpg",
+        "caracteristicas": [
+          "Plegable y portátil",
+          "Estructura de aluminio ligera",
+          "Superficie de plástico resistente",
+          "Fácil de almacenar",
+          "Dimensiones: 100x50x75 cm"
+        ]
+      }
+    ]
+  }
+  

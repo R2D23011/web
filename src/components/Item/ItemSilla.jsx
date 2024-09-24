@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-import SillasProducts from '../../Products/SillasProducts/SillasProducts.json'
+import SillasProducts from '../../Products/SillasProducts.json'
 import './item.css'
 
-function ItemDetalle() {
+function SillaDetalle() {
   const { id } = useParams();
   const silla = SillasProducts.catalogoSillas.find(s => s.id === parseInt(id));
   
@@ -39,4 +39,4 @@ function ItemDetalle() {
   )
 }
 
-export default ItemDetalle;
+export default SillaDetalle;
