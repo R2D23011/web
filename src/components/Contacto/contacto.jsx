@@ -5,7 +5,8 @@ function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: 'Quisiera mas informacion acerca de...',
+    number: '+56'
   });
   const [error, setError] = useState('');
 
@@ -53,6 +54,7 @@ function ContactForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
+          placeholder='Nombre Apellido'
           required
         />
       </div>
@@ -64,6 +66,22 @@ function ContactForm() {
           name="email"
           value={formData.email}
           onChange={handleChange}
+          placeholder='mail@example.com'
+          required
+        />
+        {error && <p className="error">{error}</p>}
+      </div>
+      <div className="form-group">
+        <label htmlFor="number">Numero de Telefono</label>
+        <input
+          type="text"
+          id="number"
+          name="number"
+          value={formData.number}
+          onChange={handleChange}
+          minLength={12}
+          maxLength={12}
+          placeholder='+56987705157'
           required
         />
         {error && <p className="error">{error}</p>}
