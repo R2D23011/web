@@ -15,6 +15,10 @@
     padding: 2px 2px;
 }
 
+div div .active{
+    background-color: #ae9787 !important;
+}
+
 .carousel-item{
     border-radius: 20px;
 }

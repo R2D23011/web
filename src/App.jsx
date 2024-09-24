@@ -7,6 +7,8 @@ import { ContactoPage } from './routes/ContactoPage'
 import NotFoundPage from './routes/NotFound'
 import { useEffect, useState } from 'react'
 import Loading from './hook/Loading'
+import ItemDetalle from './components/Item/Item'
+import { Layout } from './components/Layout/Layout'
 
 
 const AppMain = () => {
@@ -29,10 +31,13 @@ const AppMain = () => {
           ) : (
               <Routes>
                   <Route path="/" element={<HomePage />} />
-                  <Route path="/sillasCatalog" element={<SillasPage />} />
-                  <Route path="/mesasCatalog" element={<MesasPage />} />
-                  <Route path="/escritoriosCatalog" element={<EscritoriosPage />} />
-                  <Route path="/contacto" element={<ContactoPage />} />
+                  <Route path='/' element={<Layout />}>
+                    <Route path="/sillasCatalog" element={<SillasPage />} />
+                    <Route path="/mesasCatalog" element={<MesasPage />} />
+                    <Route path="/escritoriosCatalog" element={<EscritoriosPage/>} />
+                    <Route path="/contacto" element={<ContactoPage />} />
+                    <Route path="/silla/:id" element={<ItemDetalle />} />
+                  </Route>
                   <Route path="*" element={<NotFoundPage />} />
               </Routes>
           )}

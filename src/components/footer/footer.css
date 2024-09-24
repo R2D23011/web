@@ -1,9 +1,9 @@
-.link-footer:hover{
-    color: #9d1e1e !important;
-}
-
 .sin{
     font-size: smaller;
+}
+
+.bg-dark1{
+    background-color: #372a28;
 }
 
 .bottom{
@@ -27,4 +27,12 @@
 .pd-5{
     padding: 3em 1em;
     padding-bottom: 0 !important;
+}
+
+.mb-2 .text-secondary, .bottom .text-secondary, .col-xs-8 .text-secondary{
+    color: #fff4ea65 !important;
+}
+
+.link-footer:hover{
+    color: #9d1e1e !important;
 }

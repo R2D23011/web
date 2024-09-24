@@ -16,15 +16,15 @@
     border-radius: 8px;
 }
 
-.active{
+.activeheader{
     color: #fefefe !important;
-    background-color: #9d1e1e !important;
+    background-color: #734b35 !important;
     box-shadow: 0 0 10px 0 #bbb;
 }
 
 .nav-link:hover{
     color: #fefefe !important;
-    background-color: #9d1e1e;
+    background-color: #734b35;
     box-shadow: 0 0 10px 0 #bbb;
     border-radius: 8px;
 }
