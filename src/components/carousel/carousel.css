@@ -2,12 +2,13 @@
     border-radius: 50%;
 }
 
-#carouselExampleIndicators{
-    margin: 120px 10%;
+.carousel-inner{
+    margin-top: 110px;
     margin-bottom: 30px;
+}
+
+#carouselExampleIndicators{
     box-shadow: 0 0 10px 0 #999;
-    max-height: 720px;
-    max-width: 1280px;
 }
 
 .carousel-indicators{
@@ -20,8 +21,4 @@ div div .active{
 
 .carousel-item{
     border-radius: 20px;
-}
-
-.carousel-item img {
-    max-height: 550px;
 }
