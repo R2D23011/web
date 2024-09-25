@@ -18,19 +18,15 @@
     font-family: sans-serif;
 }
 
-.container-fluid h1{
-    margin-bottom: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container-fluid hr{
-    margin: 0;
-}
-
-.container-fluid .p{
-    text-wrap: pretty;
-}
-
 .maincontent{
-    max-width: 1400px;
+    margin-top: 0;
+}
+
+.container-main{
+    max-width: 1250px !important;
+    margin: auto;
+}
+
+.container-main h2{
+    color: white;
 }
