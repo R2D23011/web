@@ -9,7 +9,7 @@ export const HomePage = () => {
   return (
     <div className='d-flex flex-column justify-content-between' style={{height:'100%'}}>
         <Header></Header>
-        <main>
+        <main className='mainpage'>
           <Carousel></Carousel>
           <MainContent></MainContent>
           <IconoFlotante></IconoFlotante>

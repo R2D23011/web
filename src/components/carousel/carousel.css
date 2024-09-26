@@ -1,9 +1,7 @@
-.carousel-control-prev-icon, .carousel-control-next-icon{ 
-    border-radius: 50%;
-}
+
 
 .carousel-inner{
-    margin-top: 110px;
+    margin-top: 87px;
     margin-bottom: 30px;
 }
 
@@ -21,4 +19,18 @@ div div .active{
 
 .carousel-item{
     border-radius: 20px;
+}
+
+.carousel-item img{
+    max-height: 85dvh;
+    filter:brightness(0.65) contrast(0.8)
+}
+
+.carousel-caption .btn-dark{
+    background-color: #2228 !important;
+    border: none;
+}
+
+.carousel-caption .btn-dark:hover{
+    background-color: #222 !important;
 }

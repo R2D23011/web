@@ -40,7 +40,7 @@ const Footer = () => {
                             to='tel:+56975628652'>{phoneIcon} +56 9 7562 8652</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none link-footer" 
+                    <Link className="text-secondary text-decoration-none link-footer email" 
                             to='mailto:serviciosintegradosdelnorte@gmail.com'>{emailIcon} - serviciosintegradosdelnorte@gmail.com</Link>
                 </div>
                 <div className="mb-2">

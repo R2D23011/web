@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './carousel.css'
 
 
@@ -11,14 +12,32 @@ export const Carousel = () => {
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img src='https://www.electroluxprofessional.com/es/wp-content/uploads/2023/07/Blast-chiller-banner-1520x400-2.jpg' className="d-block w-100 img-fluid" alt="..."/>
+                <img src='https://img1.wallspic.com/crops/4/5/3/0/30354/30354-suministros_de_oficina-1920x1080.jpg' className="d-block w-100 img-fluid" alt="..."/>
+
+                <div className='carousel-caption mb-4'>
+                  <h3 style={{marginBottom:'15px'}}>Ergonomía y Comfort para tu Oficina</h3>
+                  <Link className="btn btn-dark" to="/sillasCatalog">Ver más</Link>
+                </div>
+                
             </div>
             <div className="carousel-item">
-                <img src='https://www.about.us.hsbc.com/-/media/us/en/images/240521-hsbc-unveils-innovative-new-us-headquarters-1520x400.jpg' className="d-block w-100 img-fluid" alt="..."/>
+                <img src='https://manueldelgado.com.mx/cdn/shop/articles/las-mejores-sillas-de-oficina-para-trabajar-comodamente-523088.jpg?v=1645837930' className="d-block w-100 img-fluid" alt="..."/>
+
+                <div className='carousel-caption mb-4'>
+                  <h3 style={{marginBottom:'15px'}}>El Centro de tu Espacio de Trabajo</h3>
+                  <Link className="btn btn-dark" to="/mesasCatalog">Ver más</Link>
+                </div>
+
             </div>
             <div className="carousel-item">
-              <img src='https://cityofrisingsun.com/wp-content/uploads/rising-sun-sunset-1520x400.jpg' className="d-block w-100 img-fluid" alt="..."/>
+              <img src='https://wallpapers.com/images/hd/zoom-background-office-for-men-zf4pl7gk5dh543v4.jpg' className="d-block w-100 img-fluid" alt="..."/>
+              <div className='carousel-caption mb-4'>
+                  <h3 style={{marginBottom:'15px'}}>Escritorios para Profesionales Exigentes</h3>
+                  <Link className="btn btn-dark" to="/escritoriosCatalog">Ver más</Link>
+                </div>
+
             </div>
+            
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
