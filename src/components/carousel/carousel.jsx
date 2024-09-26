@@ -15,7 +15,7 @@ export const Carousel = () => {
                 <img src='https://img1.wallspic.com/crops/4/5/3/0/30354/30354-suministros_de_oficina-1920x1080.jpg' className="d-block w-100 img-fluid" alt="..."/>
 
                 <div className='carousel-caption mb-4'>
-                  <h3 style={{marginBottom:'15px'}}>Ergonomía y Comfort para tu Oficina</h3>
+                  <h3>Ergonomía y Comfort para tu Oficina</h3>
                   <Link className="btn btn-dark" to="/sillasCatalog">Ver más</Link>
                 </div>
                 

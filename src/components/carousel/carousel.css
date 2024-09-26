@@ -19,6 +19,7 @@ div div .active{
 
 .carousel-item{
     border-radius: 20px;
+    position: relative;
 }
 
 .carousel-item img{
@@ -34,3 +35,4 @@ div div .active{
 .carousel-caption .btn-dark:hover{
     background-color: #222 !important;
 }
+
