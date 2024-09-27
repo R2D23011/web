@@ -41,15 +41,19 @@ export const MesasCatalog = () => {
           <option value="">Todos los colores</option>
           <option value="Negro">Negro</option>
           <option value="Marron">Marron</option>
+          <option value="Blanco">Blanco</option>
+          <option value="Gris">Gris</option>
+          <option value="Transparente">Transparente</option>
           {/* Agrega más opciones según tus datos */}
         </select>
         <select value={selectedMaterial} onChange={handleMaterialChange} className="filter-select">
           <option value="">Todos los materiales</option>
-          <option value="PVC">PVC</option>
+          <option value="Alumino">Aluminio</option>
           <option value="Metal">Metal</option>
-          <option value="Ecocuero">Ecocuero</option>
-          <option value="Policarbono">Policarbono</option>
-          <option value="Polipropeno">Polipropeno</option>
+          <option value="Plastico">Plastico</option>
+          <option value="Madera">Madera</option>
+          <option value="Laminado">Laminado</option>
+          <option value="Marmol">Marmol</option>
           {/* Agrega más opciones según tus datos */}
         </select>
         <div className="price-filter">

@@ -34,22 +34,27 @@ export const EscritoriosCatalog = () => {
     );
   });
 
+
+
   return (
     <div className='margin-top'>
       <div className="filters">
         <select value={selectedColor} onChange={handleColorChange} className="filter-select">
-          <option value="">Todos los colores</option>
+          <option value="">Todos los Colores</option>
           <option value="Negro">Negro</option>
+          <option value="Blanco">Blanco</option>
+          <option value="Gris">Gris</option>
           <option value="Marron">Marron</option>
           {/* Agrega más opciones según tus datos */}
         </select>
         <select value={selectedMaterial} onChange={handleMaterialChange} className="filter-select">
           <option value="">Todos los materiales</option>
-          <option value="PVC">PVC</option>
+          <option value="Madera">Madera</option>
           <option value="Metal">Metal</option>
-          <option value="Ecocuero">Ecocuero</option>
-          <option value="Policarbono">Policarbono</option>
-          <option value="Polipropeno">Polipropeno</option>
+          <option value="Vidrio">Vidrio</option>
+          <option value="Laminado">Laminado</option>
+          <option value="Aluminio">Aluminio</option>
+          <option value="Plastico">Plastico</option>
           {/* Agrega más opciones según tus datos */}
         </select>
         <div className="price-filter">
