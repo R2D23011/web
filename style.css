@@ -2,7 +2,6 @@ body{
   overflow:scroll;
   overflow-x: hidden;
   font-family: sans-serif;
-  background-color: #212529 !important;
 }
 
 #root{
