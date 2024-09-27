@@ -47,7 +47,7 @@ export const MainContent = () => {
                     </Link>
                 </div>
             </div>
-</div>
+        </div>
     </div>
-  )
+)
 }
