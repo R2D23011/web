@@ -3,6 +3,7 @@
     background-color: #fefefe !important;
     box-shadow: 0 0 5px 0 #aaa !important;
     justify-content: space-around !important;
+    transition: top 0.3s;
 }
 
 .brand{
@@ -49,4 +50,12 @@
 
 #Header{
     animation: slideInFromTop 0.8s ease-in-out;
+}
+
+.navbar.hide {
+    top: -100px; /* Ajusta este valor según la altura de tu header */
+}
+
+.navbar.show {
+    top: 0;
 }
