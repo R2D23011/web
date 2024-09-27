@@ -1,12 +1,12 @@
 .navbar{
-    font-size: large !important;
+    font-size: 16px !important;
     background-color: #fefefe !important;
-    box-shadow: 0 0 20px 0 #aaa !important;
+    box-shadow: 0 0 5px 0 #aaa !important;
     justify-content: space-around !important;
 }
 
 .brand{
-    height: 80px;
+    height: 60px;
     margin-left: 20px;
 }
 
