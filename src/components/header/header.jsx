@@ -1,5 +1,5 @@
 import './header.css'
-import Logoimg from '../../assets/Logo.png'
+import Logoimg from '../../assets/logo.png'
 import { Link, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
