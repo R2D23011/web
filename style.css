@@ -5,7 +5,7 @@ body{
 }
 
 #root{
-  height: 100dvh !important;
+  height: 100% !important;
 }
 /* Para navegadores basados en WebKit */
 ::-webkit-scrollbar {
