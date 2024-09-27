@@ -47,7 +47,7 @@ export const MesasCatalog = () => {
         </select>
         <select value={selectedMaterial} onChange={handleMaterialChange} className="filter-select">
           <option value="">Todos los materiales</option>
-          <option value="Alumino">Aluminio</option>
+          <option value="Aluminio">Aluminio</option>
           <option value="Metal">Metal</option>
           <option value="Plastico">Plastico</option>
           <option value="Madera">Madera</option>
