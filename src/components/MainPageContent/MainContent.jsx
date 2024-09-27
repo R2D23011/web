@@ -5,8 +5,8 @@ export const MainContent = () => {
   return (
     <div className="container-fluid maincontent">
         <div className="section section1">
-            <h1>Bienvenido a Nuestra Tienda</h1>
-            <p>Encuentra los mejores productos aquí.</p>
+            <h1>Bienvenido a BGK</h1>
+            <p>Encuentra los mejores productos para tu oficina aqui.</p>
         </div>
         <div className="section section2">
             <h2>Nuestros Productos</h2>

@@ -70,7 +70,7 @@ export const SillaCatalog = () => {
             <p>{silla.descripcion}</p>
             <p>Color: {silla.color}</p>
             <p>Material: {silla.material}</p>
-            <p className="precio">Precio: ${silla.precio}</p>
+            <p className="precio">Precio: ${silla.precio}<small>+IVA</small></p>
           </Link>
         ))}
       </div>

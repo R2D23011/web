@@ -3,7 +3,7 @@
 }
 
 .bg-dark1{
-    background-color: #372a28;
+    background-color: #71551d;
 }
 
 .bottom{
@@ -34,9 +34,5 @@
 }
 
 .link-footer:hover{
-    color: #9d1e1e !important;
-}
-
-.email{
-    font-size: 13px !important;
+    color: #222 !important;
 }
