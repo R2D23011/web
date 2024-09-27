@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import MesasProducts from '../../Products/MesasProducts.json'
-import './Styleditem.css'
+import './item.css'
 
 function MesaDetalle() {
   const { id } = useParams();
