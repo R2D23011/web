@@ -20,11 +20,6 @@ export const MainContent = () => {
             <h2>Contáctanos</h2>
             <p>Estamos aquí para ayudarte.</p>
         </div>
-        <div className='container-main mt-3'>
-            <h2 className='display-6'>Quienes somos?</h2>
-            <h2 className='display-6'>Que podemos ofrecerte?</h2>
-            <h2 className='display-6'>Nuestros valores</h2>
-        </div>
         <div className="container text-center" id='galeria'>
             <div className="row">
                 <div className="col-lg-4 col-xs-12">
