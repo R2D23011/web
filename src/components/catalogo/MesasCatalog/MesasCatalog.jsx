@@ -39,7 +39,6 @@ export const MesasCatalog = () => {
       <div className="filters">
         <select value={selectedColor} onChange={handleColorChange} className="filter-select">
           <option value="">Todos los colores</option>
-          <option value="Negro">Negro</option>
           <option value="Marron">Marron</option>
           <option value="Blanco">Blanco</option>
           <option value="Gris">Gris</option>
