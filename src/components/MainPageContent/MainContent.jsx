@@ -19,7 +19,7 @@ export const MainContent = () => {
         <div className="section section4">
             <h2>Contáctanos</h2>
             <p>Estamos aquí para ayudarte.</p>
-
+        </div>
         <div className='container-main mt-3'>
             <h2 className='display-6'>Quienes somos?</h2>
             <h2 className='display-6'>Que podemos ofrecerte?</h2>
