@@ -7,7 +7,7 @@ import { MainContent } from '../components/MainPageContent/MainContent'
 
 export const HomePage = () => {
   return (
-    <div className='d-flex flex-column justify-content-between' style={{height:'100%'}}>
+    <div className='d-flex flex-column justify-content-between' style={{height:'100%', minHeight:'600px'}}>
         <Header></Header>
         <main className='mainpage'>
           <Carousel></Carousel>

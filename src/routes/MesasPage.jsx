@@ -1,5 +1,4 @@
 import { MesasCatalog } from "../components/catalogo/MesasCatalog/MesasCatalog"
-import { SillaCatalog } from "../components/catalogo/SillaCatalog/SillaCatalog"
 
 
 export const MesasPage = () => {
