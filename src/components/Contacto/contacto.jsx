@@ -5,8 +5,9 @@ function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: 'Quisiera mas informacion acerca de...',
-    number: '+56'
+    message: 'Quisiera más información acerca de...',
+    number: '',
+    prefix: '+56'
   });
   const [error, setError] = useState('');
 
@@ -28,7 +29,7 @@ function ContactForm() {
     e.preventDefault();
 
     if (!isValidEmail(formData.email)) {
-      setError('Email inválido');
+      setError('Formato inválido');
       return;
     }
 
@@ -72,19 +73,21 @@ function ContactForm() {
         {error && <p className="error">{error}</p>}
       </div>
       <div className="form-group">
-        <label htmlFor="number">Numero de Telefono</label>
-        <input
-          type="text"
-          id="number"
-          name="number"
-          value={formData.number}
-          onChange={handleChange}
-          minLength={12}
-          maxLength={12}
-          pattern="[0-9+]*"
-          required
-        />
-        {error && <p className="error">{error}</p>}
+        <label htmlFor='number'>Número de Teléfono</label>
+        <div className="input-group">
+          <span className="input-group-text" value={formData.prefix}>+56</span>
+          <input
+            type="text"
+            id="number"
+            name="number"
+            value={formData.number}
+            onChange={handleChange}
+            minLength={9} // Ajustado para el número sin el prefijo
+            maxLength={9} // Ajustado para el número sin el prefijo
+            pattern="[0-9]*" // Solo números después del prefijo
+            required
+          />
+        </div>
       </div>
       <div className="form-group">
         <label htmlFor="message">Mensaje</label>

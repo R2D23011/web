@@ -43,7 +43,6 @@
 .centered-text {
     display: none;
     position: absolute;
-    text-shadow: 0 3px 20px #111;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -52,11 +51,13 @@
 }
 
 .image-container:hover .centered-text{
-    display: block;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .image-container:hover img{
-    filter: blur(0.3px) contrast(0.8);
+    filter: blur(0.3px) contrast(0.7);
 }
 
 body {
@@ -72,13 +73,14 @@ body {
     text-align: center;
 }
 .section1 {
-    background: linear-gradient(to bottom, #e6bb4a , #4682B4); 
+    background-color: #e6ba4a;
 }
 .section2 {
-    background: linear-gradient(to bottom, #4682B4 , #6A5ACD); 
+    background-color: #222; 
 }
 .section3 {
-    background: linear-gradient(to bottom, #6A5ACD , #4A90E2); 
+    background-color: #e5e5e5;
+    color: #444 !important;
 }
 .section4 {
     background: linear-gradient(to bottom, #4A90E2 , #fefefe); 
@@ -94,5 +96,5 @@ body {
 }
 
 .section{
-    min-height: 80dvh;
+    min-height: 85dvh;
 }
