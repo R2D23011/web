@@ -31,7 +31,7 @@ const Footer = () => {
     <footer className="container-fluid">
         <div className="row pd-5 bg-dark1 text-white justify-content-around">
             <div className="col-xs-8 col-md-4 col-lg-2">
-                <Link className="mb-2 sin text-decoration-none text-secondary"><img width='100px' src={LogoNoType} to='/'/><br/>© Servicios Integrales del Norte, Inc</Link>
+                <Link className="mb-2 sin text-decoration-none text-secondary"><img width='100px' src={LogoNoType} to='/'/><br/>© BGK, Inc</Link>
             </div>
             <div className="col-xs-8 col-md-4 col-lg-3 mb-3">
                 <p className="h5 mb-3">Contacto</p>
@@ -40,8 +40,8 @@ const Footer = () => {
                             to='tel:+56975628652'>{phoneIcon} +56 9 7562 8652</Link>
                 </div>
                 <div className="mb-2">
-                    <Link className="text-secondary text-decoration-none link-footer email" 
-                            to='mailto:serviciosintegradosdelnorte@gmail.com'>{emailIcon} - serviciosintegradosdelnorte@gmail.com</Link>
+                    <Link className="text-secondary text-decoration-none link-footer" 
+                            to='mailto:serviciosintegradosdelnorte@gmail.com'>{emailIcon} - serviciosbgk@gmail.com</Link>
                 </div>
                 <div className="mb-2">
                     <Link className="text-secondary text-decoration-none link-footer" 
@@ -67,7 +67,7 @@ const Footer = () => {
                             target="blank">{InstagramIcon} Instagram</Link>
                 </div>
             </div>
-            <div className="bottom bg-dark1">
+            <div className="bottom">
                 <p className="derechos text-secondary blockquote-footer">© Todos los Derechos Reservados, Pagina creada por <Link className="text-decoration-none linkedin link-footer" to="https://www.linkedin.com/in/carlos-acevedo-2947b420a" target="blank">ArturoD3v</Link></p>
             </div>
         </div>

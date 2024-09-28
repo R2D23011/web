@@ -16,7 +16,7 @@
 }
 
 div div .active{
-    background-color: #ae9787 !important;
+    background-color: #e6bb4a !important;
 }
 
 .carousel-item{
@@ -35,6 +35,7 @@ div div .active{
 }
 
 .carousel-caption .btn-dark:hover{
-    background-color: #222 !important;
+    background-color: #e6ba4ad3 !important;
+    color: #222;
 }
 

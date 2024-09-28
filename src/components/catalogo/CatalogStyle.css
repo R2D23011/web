@@ -2,15 +2,6 @@
     margin-top: 60px;
     background:scroll linear-gradient(to bottom, #eee, #fff)
   }
-  .sillah1 {
-    text-align: center;
-    font-size: 2.5em;
-    color: #734b35;
-    background: linear-gradient(to right, #ae9787, #734b35);
-    -webkit-background-clip: text;
-    color: transparent;
-    padding: 10px 0;
-  }
   
   /* Contenedor de la grilla */
   .catalogo {
@@ -28,7 +19,7 @@
     background-color: #fff;
     padding: 15px;
     border-radius: 4px;
-    box-shadow: 0 0 1px 0 #734b35;
+    box-shadow: 0 0 10px 0 #00000046;
     transition: transform 0.2s;
   }
   
@@ -53,7 +44,7 @@
   
   .silla .precio {
     font-weight: bold;
-    color: #734b35;
+    color: #d43;
   }
 
   .filters {
@@ -83,7 +74,7 @@
 
   .filter-select:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #e6bb4a;
   }
 
   .filter-select::after {
@@ -106,6 +97,11 @@
   
   .price-slider {
     width: 100%;
+  }
+
+  .precio small{
+    font-size: 10px;
+    color: #333;
   }
   
   @media (max-width: 767px) {
