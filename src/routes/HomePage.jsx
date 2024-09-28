@@ -3,6 +3,7 @@ import Footer from '../components/footer/footer'
 import { Header } from '../components/header/header'
 import { IconoFlotante } from '../components/IconoFlotanteWhatsapp/IconoFlotante'
 import { MainContent } from '../components/MainPageContent/MainContent'
+import { Sponsor } from '../components/sponsors/sponsor'
 
 
 export const HomePage = () => {
@@ -13,6 +14,7 @@ export const HomePage = () => {
           <Carousel></Carousel>
           <MainContent></MainContent>
           <IconoFlotante></IconoFlotante>
+          <Sponsor></Sponsor>
         </main>
         <Footer></Footer>
     </div>

@@ -20,13 +20,13 @@
 
 .activeheader{
     color: #fefefe !important;
-    background-color: #e6bb4a !important;
+    background-color: #d6a938 !important;
     box-shadow: 0 0 10px 0 #bbb;
 }
 
 .nav-link:hover{
     color: #fefefe !important;
-    background-color: #e6ba4acd;
+    background-color: #d6a938;
     box-shadow: 0 0 8px 0 #bbb;
     border-radius: 2px;
     transform: scale(1.08);

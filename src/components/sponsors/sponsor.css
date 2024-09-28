@@ -1,0 +1,11 @@
+.Sponsors{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Sponsors img{
+    max-height: 8dvh;
+    margin-bottom: 30px;
+    filter: opacity(0.5) contrast(0.5);
+}
