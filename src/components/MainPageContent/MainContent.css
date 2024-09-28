@@ -98,3 +98,34 @@ body {
 .section{
     min-height: 85dvh;
 }
+
+.sectioncontact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch; /* Asegura que los elementos hijos se estiren para ocupar la misma altura */
+  }
+  
+  .sectioncontact > * {
+    flex: 1 1 45%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido interno se distribuya en columna */
+  }
+  
+  @media (max-width: 1024px) {
+    .sectioncontact > * {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sectioncontact {
+      flex-direction: column;
+    }
+  
+    .sectioncontact > * {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  }

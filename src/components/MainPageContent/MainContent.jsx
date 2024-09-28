@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import './MainContent.css'
+import Map from '../Map/maps'
+import ContactForm from '../Contacto/contacto'
 
 export const MainContent = () => {
   return (
-    <div className="container-fluid maincontent">
+    <div className="container-fluid maincontent" loading="lazy">
         <div className="section section1">
             <h1>Bienvenido a BGK</h1>
             <p>Encuentra los mejores productos para tu oficina aqui.</p>
@@ -18,7 +20,10 @@ export const MainContent = () => {
         </div>
         <div className="section section4">
             <h2>Contáctanos</h2>
-            <p>Estamos aquí para ayudarte.</p>
+            <div className='sectioncontact'>
+                <Map />
+                <ContactForm />
+            </div>
         </div>
         <div className="container text-center" id='galeria'>
             <div className="row">
