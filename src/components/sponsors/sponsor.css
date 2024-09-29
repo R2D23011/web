@@ -1,6 +1,6 @@
 .Sponsors{
     margin: auto;
-    display: none; /*Valor para que se muestre es flex, para ocultarlo none*/
+    display: flex; /*Valor para que se muestre es flex, para ocultarlo none*/
     justify-content: space-evenly;
 }
 
