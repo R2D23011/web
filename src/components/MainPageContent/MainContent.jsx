@@ -21,7 +21,7 @@ export const MainContent = () => {
             <h2>Contáctanos</h2>
             <div style={{position: 'relative', paddingBottom: '56.25%', height: '0', overflow: 'hidden'}}>
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019112482166!2d144.9630579153169!3d-37.8141079797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d9f0b1d0a1e!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1611819441234!5m2!1sen!2sau" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.268789866127!2d-70.68752665219611!3d-33.44230304615298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5af9b5bf591%3A0x3b9b2f01cfe2b3d6!2sMuseo%20Ferroviario%20de%20Santiago!5e0!3m2!1ses!2sve!4v1727579368352!5m2!1ses!2sve" 
                     width="600" 
                     height="600" 
                     style={{border:"0", position: 'absolute', top: '0', left: '0', width: '100%', height: '70dvh'}}
