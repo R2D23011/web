@@ -3,7 +3,7 @@
 }
 
 .bg-dark1{
-    background-color: #2ea296
+    background-color: #c9884f
 }
 
 .bottom{
@@ -34,5 +34,5 @@
 }
 
 .link-footer:hover{
-    color: #e6ba4a !important;
+    color: #333 !important;
 }
