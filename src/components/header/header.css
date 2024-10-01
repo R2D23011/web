@@ -19,17 +19,12 @@
 }
 
 .activeheader{
-    color: #fefefe !important;
-    background-color: #d6a938 !important;
-    box-shadow: 0 0 10px 0 #bbb;
+    color: #e7b63a  !important;
 }
 
 .nav-link:hover{
-    color: #fefefe !important;
-    background-color: #d6a938;
-    box-shadow: 0 0 8px 0 #bbb;
-    border-radius: 2px;
-    transform: scale(1.08);
+    color: #e7b63a !important;
+    transform: scale(1.2);
 }
 
 

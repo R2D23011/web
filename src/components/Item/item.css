@@ -14,12 +14,11 @@
     max-width: 1200px;
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .product-detail img {
     max-width: 500px;
-    border-radius: 10px;
+    border-radius: 4px;
     margin-bottom: 20px;
   }
   
