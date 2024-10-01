@@ -6,12 +6,8 @@
 #galeria img{
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
     width: 100% !important;
-}
-
-#galeria img:hover{
-    box-shadow: 0 0 15px 0 #999;
+    border-radius: 4px;
 }
 
 .container-fluid .p{
@@ -58,6 +54,8 @@
 
 .image-container:hover img{
     filter: blur(0.3px) contrast(0.7);
+    transform: scale(1.04);
+    box-shadow: 0 0 10px 0 #2224;
 }
 
 body {

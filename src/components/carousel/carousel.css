@@ -32,6 +32,7 @@ div div .active{
 .carousel-caption .btn-dark{
     background-color: #2228 !important;
     border: none;
+    border-radius: 1px !important;
 }
 
 .carousel-caption .btn-dark:hover{
