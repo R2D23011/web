@@ -51,7 +51,7 @@ export const SillaCatalog = () => {
           {/* Agrega más opciones según tus datos */}
         </select>
         <div className="price-filter">
-          <label>Precio máximo: ${selectedPrice}</label>
+          <label>Precio máximo: ${selectedPrice}.000</label>
           <input
             type="range"
             min={minPrice}
