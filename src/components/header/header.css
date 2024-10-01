@@ -3,7 +3,7 @@
     background-color: #fefefe !important;
     box-shadow: 0 0 5px 0 #aaa !important;
     justify-content: space-around !important;
-    transition: top 0.3s;
+    transition: top 0.5s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .brand{
@@ -35,7 +35,7 @@
 @keyframes slideInFromTop {
     from {
       transform: translateY(4%);
-      opacity: 0.5;
+      opacity: 0.1;
     }
     to {
       transform: translateY(0);
@@ -47,10 +47,11 @@
     animation: slideInFromTop 0.8s ease-in-out;
 }
 
-.navbar.hide {
-    top: -100px; /* Ajusta este valor según la altura de tu header */
-}
+    .navbar.hide {
+        top: -90px;
+        opacity: 0;
+    }
 
-.navbar.show {
-    top: 0;
-}
+    .navbar.show {
+        opacity: 1;
+    }
