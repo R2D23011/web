@@ -65,7 +65,9 @@ export const SillaCatalog = () => {
       <div className="catalogo">
         {filteredSillas.map(silla => (
           <Link key={silla.id} className="silla text-decoration-none text-dark" to={`/silla/${silla.id}`}>
-            <img src={silla.imagen} alt={silla.nombre} className="silla-imagen" />
+            <div className='silla-imagen-container'>
+              <img src={silla.imagen} alt={silla.nombre} className="silla-imagen" />
+            </div>
             <h2>{silla.nombre}</h2>
             <p>{silla.descripcion}</p>
             <p>Color: {silla.color}</p>

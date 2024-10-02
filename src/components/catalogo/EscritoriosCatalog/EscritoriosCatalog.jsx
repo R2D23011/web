@@ -72,7 +72,9 @@ export const EscritoriosCatalog = () => {
       <div className="catalogo">
         {filteredEscritorios.map(escritorio => (
           <Link key={escritorio.id} className="silla text-decoration-none text-dark" to={`/escritorio/${escritorio.id}`}>
-            <img src={escritorio.imagen} alt={escritorio.nombre} className="silla-imagen" />
+            <div className='silla-imagen-container'>
+              <img src={escritorio.imagen} alt={escritorio.nombre} className="silla-imagen" />
+            </div>
             <h2>{escritorio.nombre}</h2>
             <p>{escritorio.descripcion}</p>
             <p>Color: {escritorio.color}</p>
