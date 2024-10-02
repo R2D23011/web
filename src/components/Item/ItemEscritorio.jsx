@@ -1,10 +1,26 @@
 import { useParams } from "react-router-dom";
 import EscritoriosProductos from '../../Products/EscritoriosProductos.json'
 import './item.css'
+import { useState } from "react";
 
 function EscritorioDetalle() {
   const { id } = useParams();
   const escritorio = EscritoriosProductos.catalogoEscritorios.find(s => s.id === parseInt(id));
+  const [isZoomed, setIsZoomed] = useState(false);
+  const [zoomStyle, setZoomStyle] = useState({});
+
+  const handleZoom = () => {
+    setIsZoomed(!isZoomed);
+  };
+
+  const handleMouseMove = (e) => {
+    if (isZoomed) {
+      const { left, top, width, height } = e.target.getBoundingClientRect();
+      const x = ((e.pageX - left) / width) * 100;
+      const y = ((e.pageY - top) / height) * 100;
+      setZoomStyle({ transformOrigin: `${x}% ${y}%` });
+    }
+  };
   
   
   const whatsappLink = `https://wa.me/+56975628652?text=Hola%2C%20estoy%20interesado%20en%20comprar:%20${escritorio.nombre}`;
@@ -13,7 +29,14 @@ function EscritorioDetalle() {
   return (
     <div className="product-detail-container">
       <div className="product-detail">
-        <img src={escritorio.imagen} alt={escritorio.nombre} />
+      <div
+          className={`img-container ${isZoomed ? 'zoom' : ''}`}
+          onClick={handleZoom}
+          onMouseMove={handleMouseMove}
+        >
+          <img src={escritorio.imagen} alt={escritorio.nombre} style={zoomStyle} />
+        </div>
+        
         <div className="details">
           <h1>{escritorio.nombre}</h1>
           <p>{escritorio.descripcion}</p>
