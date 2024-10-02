@@ -1,14 +1,18 @@
 import { Link } from 'react-router-dom'
 import MesasProducts from '../../../Products/MesasProducts.json'
 import '../CatalogStyle.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export const MesasCatalog = () => {
 
+  const prices = MesasProducts.catalogoMesas.map(escritorio => escritorio.precio);
+  const minPrice = Math.min(...prices);
+  const maxPrice = Math.max(...prices);
+
   const [selectedColor, setSelectedColor] = useState('');
   const [selectedMaterial, setSelectedMaterial] = useState('');
-  const [selectedPrice, setSelectedPrice] = useState('');
+  const [selectedPrice, setSelectedPrice] = useState(maxPrice); // establece el precio maximo como valor por defecto
 
   const handleColorChange = (event) => {
     setSelectedColor(event.target.value);
@@ -18,13 +22,13 @@ export const MesasCatalog = () => {
     setSelectedMaterial(event.target.value);
   };
 
+  useEffect(() => {
+    setSelectedPrice(maxPrice);
+  }, [maxPrice]);
+
   const handlePriceChange = (event) => {
     setSelectedPrice(event.target.value);
   };
-
-  const prices = MesasProducts.catalogoMesas.map(escritorio => escritorio.precio);
-  const minPrice = Math.min(...prices);
-  const maxPrice = Math.max(...prices);
 
   const filteredMesas = MesasProducts.catalogoMesas.filter(escritorio => {
     return (

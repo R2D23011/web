@@ -146,7 +146,7 @@
     appearance: none;
     width: 15px;
     height: 15px;
-    background: #3dbf42c0;
+    background: #c9884f;
     cursor: pointer;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -160,7 +160,6 @@
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
-  
   
   @media (max-width: 767px) {
     .filters {
