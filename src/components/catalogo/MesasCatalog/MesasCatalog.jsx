@@ -70,7 +70,9 @@ export const MesasCatalog = () => {
       <div className="catalogo">
         {filteredMesas.map(mesa => (
           <Link key={mesa.id} className="silla text-decoration-none text-dark" to={`/mesa/${mesa.id}`}>
-            <img src={mesa.imagen} alt={mesa.nombre} className="silla-imagen" />
+            <div className='silla-imagen-container'>
+              <img src={mesa.imagen} alt={mesa.nombre} className="silla-imagen" />
+            </div>
             <h2>{mesa.nombre}</h2>
             <p>{mesa.descripcion}</p>
             <p>Color: {mesa.color}</p>
