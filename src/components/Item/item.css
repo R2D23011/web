@@ -79,6 +79,32 @@
     margin: 2px 0;
   }
   
+  .quantity-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-container label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .quantity-container input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .quantity-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
   @media (min-width: 768px) {
     .product-detail {
       flex-direction: row;
