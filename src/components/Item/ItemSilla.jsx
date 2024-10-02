@@ -22,8 +22,14 @@ function SillaDetalle() {
       setZoomStyle({ transformOrigin: `${x}% ${y}%` });
     }
   };
+
+  const [quantity, setQuantity] = useState(1);
+
+  const handleQuantityChange = (event) => {
+    setQuantity(event.target.value);
+  };
   
-  const whatsappLink = `https://wa.me/+56975628652?text=Hola%2C%20estoy%20interesado%20en%20comprar:%20${silla.nombre}`;
+  const whatsappLink = `https://wa.me/+56975628652?text=Hola%2C%20estoy%20interesado%20en%20comprar:%20${silla.nombre}.%0ACantidad:%20${quantity}`;
   
   
   return (
@@ -47,6 +53,17 @@ function SillaDetalle() {
             <li key={index}>{caracteristica}</li>
             ))}
           </ul>
+          <div className="quantity-container">
+            <label htmlFor="quantity">Cantidad:</label>
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              value={quantity}
+              onChange={handleQuantityChange}
+            />
+          </div>
           <a href={whatsappLink} className="btnn" target="_blank" rel="noopener noreferrer">
           Contactar por WhatsApp
           </a>
